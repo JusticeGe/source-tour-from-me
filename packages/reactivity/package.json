@@ -1,13 +1,15 @@
 {
-  "name": "@gec/utils",
+  "name": "@gec/reactivity",
   "version": "1.0.0",
-  "description": "utils",
+  "description": "",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "type": "dist/index.d.ts",
   "scripts": {
-    "test": "",
     "build": "unbuild"
+  },
+  "dependencies": {
+    "@gec/utils": "workspace:*"
   },
   "keywords": [],
   "author": "",

@@ -6,7 +6,9 @@
   "scripts": {
     "test:once": "vitest --run ./packages",
     "test:watch": "vitest -w --ui ./packages",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "build:utils": "pnpm run --filter @gec/utils build",
+    "build:all": "pnpm run --filter @gec/* build"
   },
   "keywords": [],
   "author": "",
