@@ -1,17 +1,17 @@
 {
   "name": "@gec/reactivity",
+  "type": "dist/index.d.ts",
   "version": "1.0.0",
   "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
-  "type": "dist/index.d.ts",
   "scripts": {
     "build": "unbuild"
   },
   "dependencies": {
     "@gec/utils": "workspace:*"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }

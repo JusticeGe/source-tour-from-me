@@ -1,15 +1,15 @@
 {
   "name": "@gec/utils",
+  "type": "dist/index.d.ts",
   "version": "1.0.0",
   "description": "utils",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
-  "type": "dist/index.d.ts",
   "scripts": {
     "test": "",
     "build": "unbuild"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
