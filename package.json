@@ -1,0 +1,24 @@
+{
+  "name": "source-tour-from-me",
+  "version": "1.0.0",
+  "description": "gec's source-tour",
+  "main": "index.js",
+  "scripts": {
+    "test:once": "vitest --run ./packages",
+    "test:watch": "vitest -w --ui ./packages",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.24.5",
+    "@vitest/coverage-istanbul": "^0.24.5",
+    "@vitest/ui": "^0.24.5",
+    "c8": "^7.12.0",
+    "istanbul": "^0.4.5",
+    "typescript": "^4.8.4",
+    "unbuild": "^0.9.4",
+    "vitest": "^0.24.5"
+  }
+}
